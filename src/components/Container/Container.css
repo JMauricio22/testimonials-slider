@@ -1,25 +1,25 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {	
-	font-size:32px;
-	font-family: 'Inter',san-serif;
+body {
+  font-size: 32px;
+  font-family: "Inter", san-serif;
 }
-.container{
-	width : 100vw;
-	height : 100vh;
-	background-color:rgb(240,240,240);
-	overflow:hidden;
-	display:flex;
-	justify-content:center;
-	align-items:center;
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(240, 240, 240);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@media only screen and (max-width:1023px){
-	.container{
-		overflow:auto;
-		height:auto;
-	}
+@media only screen and (max-width: 1023px) {
+  .container {
+    overflow: auto;
+    height: auto;
+  }
 }
