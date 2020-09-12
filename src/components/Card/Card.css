@@ -1,0 +1,109 @@
+.card{
+ 	max-width:900px;
+	width:85%;
+	height:80%;
+	display:flex;
+	flex-flow:row wrap;
+	align-items:center;
+	background-color:white;
+	position:relative;
+	overflow:hidden;
+}
+.card__text{
+ 	width:50%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	margin-left:10%;
+}
+.card__curve-img{
+ 	display:block;
+	width:35%;
+	height:85px;
+	position:absolute;
+	bottom:0px;
+	left:0;
+	right:0;
+}
+.card__quotes-img{
+ 	display:block;
+	position:absolute;
+	width: 70px;
+	height: 55px;
+	left:60px;
+	top:-35px;
+}
+.card__paragraph{
+ 	font-weight:300;
+	font-size: 0.6em;
+}
+.card__person{
+	margin-top:0.15em;	
+}
+.card__name{
+ 	font-size:0.4em;
+	font-weight:700;
+	margin-right:0.5em;
+}
+.card__job{
+	font-size:0.4em;
+	color:rgba(128,128,128,.5);
+	font-weight:500;
+}
+.card__img{
+	width:30%;
+	height:300px;
+	position:relative;
+	margin-right:10%;
+}
+.card__container-person-img{
+	position:absolute;
+	top:0;
+	left:-45px;
+	width:300px;
+	height:280px;
+}
+.card__person-img{
+	width:100%;
+	height:100%;
+}
+.card__container-btn{
+ 	width:70px;
+	position:absolute;
+	bottom:-17.5px;
+	left:30px;
+	right:0;
+}
+.card__btn{
+	width:50%;
+	height:35px;
+	padding: 5px;
+	display:inline-flex;
+	justify-content:center;
+	align-items:center;
+	background-color:white;
+ 	border: 1px solid rgb(240,240,240);
+	outline:none;
+}
+.card__btn:hover{
+	cursor:pointer;
+}
+.card__btn-img{
+	width:10px;
+	height:10px;
+}
+.card__btn--prev{
+	border-radius: 45% 0 0 45%;
+	border-right:none;
+}
+.card__btn--next{
+	border-radius: 0 45% 45% 0;
+	border-left:none;
+}
+.card__bg-img{
+ 	width:400px;
+	height:350px;
+	position:absolute;
+	top:-40px;
+	left:-100px;
+}
