@@ -14,7 +14,7 @@ const people = [
 	},
 	{
 		img: PersonIMGJohn,
-		text:"“ If you want to lay the best foundation possible I’d recommend taking this course.The depth the instrut		      ors go into is incredible. I now feel so confident about starting up as a professional developer. ”",
+		text:"“ If you want to lay the best foundation possible I’d recommend taking this course.The depth the instrut		      ors go into is incredible. I now feel so confident about starting up as a professional developer.”",
 		name: " John Tarkpor",
 		job: " Junior Front-end Developer",
 	},
